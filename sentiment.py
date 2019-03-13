@@ -4,11 +4,11 @@ import tweepy
 from textblob import TextBlob
 import matplotlib.pyplot as plt
 
-consumer_key = "xIXYf8RVbFI13bLazq1gx5tyh"
-consumer_secret ="Jx6SMAPGheKv8NzeYQEu2SPIjspqFMYRUXEDO2hIbpyKoLLYcK"
+consumer_key = ""
+consumer_secret =""
 
-access_token ="3052936344-JwuH5XkGlG6XR32TlEPCKsV3HWE1liTPIQjW1jK"
-access_token_secret ="W72NmBqjNaliIzjlmcRHmnf4oFbwjIzezg3B9uyP8NZ7u"
+access_token =""
+access_token_secret =""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
