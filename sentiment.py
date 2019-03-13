@@ -1,3 +1,5 @@
+# use search text as q.
+#you can make function to do this task.
 import tweepy
 from textblob import TextBlob
 import matplotlib.pyplot as plt
@@ -15,7 +17,7 @@ api = tweepy.API(auth)
 def percentage(uper, lower):
     return 100*float(uper)/float(lower)
 
-public_tweets = tweepy.Cursor(api.search, q="vandana", lang="en", result_type="recent").items(100)
+public_tweets = tweepy.Cursor(api.search, q="infosys", lang="en", result_type="recent").items(100)
 count=0
 positive=0
 negative=0
