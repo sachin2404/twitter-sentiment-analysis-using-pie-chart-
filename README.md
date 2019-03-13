@@ -32,5 +32,7 @@ You will now be redirected to the application creation page. Fill out the requir
 
 > **Note:** For More Information About Twitter Application [visit](http://docs.tweepy.org/en/v3.5.0/auth_tutorial.html) this site.
 
+> **Note:** You can get only tweets using [this]() program file.
+
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/sachin2404/twitter-sentiment-analysis-using-pie-chart-/blob/master/LICENSE) file for details
